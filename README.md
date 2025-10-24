@@ -60,16 +60,16 @@ This project features a production-ready, scalable architecture:
 - **Separate Entrypoints** - Optimized startup for each service
 
 **What makes this project special:**
-- ✅ **Enterprise-grade architecture** - Production-ready patterns and best practices
-- ✅ **Fully automated setup** - Migrations, superuser, static files - all automatic
-- ✅ **Clear, documented code** - Professional code with comprehensive comments
-- ✅ **Step-by-step tutorials** - YouTube videos explaining architecture decisions
-- ✅ **Real production patterns** - Celery, Redis, proper database management
-- ✅ **Beginner-friendly** - Learn professional development without overwhelm
+-  **Enterprise-grade architecture** - Production-ready patterns and best practices
+-  **Fully automated setup** - Migrations, superuser, static files - all automatic
+-  **Clear, documented code** - Professional code with comprehensive comments
+-  **Step-by-step tutorials** - YouTube videos explaining architecture decisions
+-  **Real production patterns** - Celery, Redis, proper database management
+-  **Beginner-friendly** - Learn professional development without overwhelm
 
 ---
 
-## 🎯 Key Features & Automation
+##  Key Features & Automation
 
 ### Automatic Setup (Zero Manual Steps!)
 
@@ -198,10 +198,10 @@ docker-compose up --build
 ```
 
 **What happens automatically:**
-- ✅ Database migrations run automatically
-- ✅ Superuser created (username: `admin`, password: `admin123`)
-- ✅ Static files collected
-- ✅ All services start and connect
+-  Database migrations run automatically
+-  Superuser created (username: `admin`, password: `admin123`)
+-  Static files collected
+-  All services start and connect
 
 **Access your application:**
 
@@ -247,11 +247,11 @@ docker-compose up --build
 ```
 
 **Key Features:**
-- ✅ All services containerized and isolated
-- ✅ Automatic service dependencies
-- ✅ Health checks and auto-restart
-- ✅ Data persistence across restarts
-- ✅ Hot reload for development
+-  All services containerized and isolated
+-  Automatic service dependencies
+-  Health checks and auto-restart
+-  Data persistence across restarts
+-  Hot reload for development
 
 That's it! Everything is set up and ready to use.
 
