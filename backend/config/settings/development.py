@@ -133,7 +133,9 @@ DJANGO_PUBLIC_API_URL = config(
 # API Keys with defaults (for build process)
 OPENAI_API_KEY = config("OPENAI_API_KEY")
 TAVILY_API_KEY = config("TAVILY_API_KEY")
-ANTHROPIC_API_KEY = config("ANTHROPIC_API_KEY")
+ANTHROPIC_API_KEY = "dummy-key"
+
+#ANTHROPIC_API_KEY = config("ANTHROPIC_API_KEY")
 
 
 # If you need separate keys for dev and prod, you can set them here
