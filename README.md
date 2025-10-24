@@ -1,9 +1,6 @@
-# 🤖 Learn AI Chatbots | Django + Next.js
-*Educational Tutorial Series for Developers*
+# 🤖 AI Chatbots | Django + Next.js
 
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=flat&logo=youtube)](https://youtube.com/@aparsoft)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-blue?style=flat&logo=linkedin)](https://linkedin.com/company/aparsoft)
-[![Website](https://img.shields.io/badge/Website-aparsoft.com-green?style=flat)](https://aparsoft.com)
+
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![Django](https://img.shields.io/badge/Django-5.2-green?logo=django)
@@ -11,15 +8,15 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-blue?logo=postgresql)
 ![LangChain](https://img.shields.io/badge/LangChain-Latest-green)
 
-> **🎓 Educational Tutorial Series for the Developer Community**
+
 >
-> Learn how to build conversational AI chatbots from scratch using Django, Django REST Framework, and Next.js. This hands-on tutorial introduces you to LangChain and LangGraph basics while building a real working chatbot.
+build conversational AI chatbots from  using Django, Django REST Framework, and Next.js. This hands-on project introduces you to LangChain and LangGraph basics while building a real working chatbot.
 
-## 📖 What Is This Project?
+##  What Is This Project?
 
-This is a **learning-focused repository** designed to teach developers how to integrate AI into full-stack web applications. It's NOT a comprehensive enterprise solution - it's a clear, straightforward tutorial on building your first conversational chatbot.
+ how to integrate AI into full-stack web applications. It's NOT a comprehensive enterprise solution - it's a clear, straightforward  building your first conversational chatbot.
 
-**What You'll Learn:**
+**What the project:**
 - Setting up Django + Django REST Framework for AI applications
 - Building a modern frontend with Next.js
 - Creating basic conversational chatbot functionality
@@ -29,43 +26,6 @@ This is a **learning-focused repository** designed to teach developers how to in
 - Deploying a simple AI chatbot
 
 ---
-
-## ⚡ Quick Start
-
-**New to AI chatbots?** Perfect! This tutorial is designed for you:
-
-1. 🎥 **[Watch the YouTube Tutorial](https://youtube.com/@aparsoft-ai)** - Follow along step-by-step
-2. 💻 **Clone this repo** - Get the starter code
-3. 🛠️ **Build with us** - Learn by doing
-4. 🚀 **Deploy your chatbot** - See it live!
-
-**No prior AI experience needed** - we'll teach you everything from basics to deployment.
-
----
-
-## 🎯 About Aparsoft
-
-We're an AI solutions company based in **Bengaluru, India**, and we're passionate about teaching developers. This tutorial series is part of our mission to make AI accessible to the Django and broader developer community.
-
-**Why We Created This Tutorial:**
-- Share our Django + AI integration knowledge
-- Build a supportive developer community
-- Demonstrate the power of Django-DRF-Next.js stack
-- Make AI less intimidating for backend developers
-- Help you build your first AI project
-
-### 📺 Learn With Us on YouTube
-
-We're building in public and teaching everything we know:
-
-- **YouTube:** [@aparsoft-ai](https://youtube.com/@aparsoft-ai) - **Weekly tutorials, live coding, and beginner-friendly content**
-- **LinkedIn:** [/company/aparsoft](https://linkedin.com/company/aparsoft) - Articles and tech insights
-- **GitHub:** [@aparsoft](https://github.com/aparsoft) - Open-source learning projects
-- **Twitter/X:** [@aparsoft](https://twitter.com/aparsoft) - Quick tips and dev updates
-- **Website:** [aparsoft.com](https://aparsoft.com) - More about our work
-
-**Subscribe to our YouTube channel** - New tutorials every Wednesday, and Friday!
-
 ## 🛠️ Tech Stack (Enterprise-Grade Architecture)
 
 This project features a production-ready, scalable architecture:
@@ -98,19 +58,6 @@ This project features a production-ready, scalable architecture:
 - **Hot Reload** - Development efficiency (both backend & frontend)
 - **Volume Persistence** - Data survives container restarts
 - **Separate Entrypoints** - Optimized startup for each service
-
-
-## 💡 Why This Repository?
-
-This is a **hands-on learning project** for developers who want to understand AI integration without the overwhelm.
-
-**Perfect for:**
-- **Django developers** curious about adding AI to their projects
-- **Backend developers** wanting to learn LangChain basics
-- **Full-stack developers** exploring Next.js + Django integration
-- **Students** learning modern web development with AI
-- **Bootcamp grads** building their portfolio with real AI projects
-- **Anyone** who's intimidated by AI and wants a friendly introduction
 
 **What makes this project special:**
 - ✅ **Enterprise-grade architecture** - Production-ready patterns and best practices
@@ -205,10 +152,6 @@ View Celery tasks in Django admin or use:
 docker-compose exec celery celery -A config inspect active
 ```
 
-## 🚀 What You'll Build
-
-By the end of this tutorial, you'll have a working chatbot with:
-
 ### 🤖 Basic Chatbot Features
 - **Conversational Interface** - Simple, clean chat UI
 - **Message History** - Conversations that remember context
@@ -222,18 +165,12 @@ By the end of this tutorial, you'll have a working chatbot with:
 - **LangGraph Basics** - Simple conversation flow patterns
 - **Database Storage** - Saving conversations in PostgreSQL
 
-### 📚 Learning Outcomes
+### 📚  Outcomes
 - Understand how to connect Django with AI APIs
 - Learn LangChain fundamentals through practice
 - See how conversation state management works
 - Deploy a full-stack AI application
 - Build confidence to explore more complex AI features
-
-## 🛠️ Getting Started
-
-### Prerequisites
-
-Don't worry if you don't have everything - we'll guide you through installation in the tutorial videos!
 
 **Required:**
 - Python 3.10+ (we recommend 3.12)
@@ -249,7 +186,7 @@ Don't worry if you don't have everything - we'll guide you through installation 
 **Option 1: Docker (Recommended for Beginners)**
 ```bash
 # Clone the repo
-git clone https://github.com/aparsoft/django-nextjs-chatbot.git
+git clone https://github.com/Samuvel-victor/django-chatbot.git
 cd django-nextjs-chatbot
 
 # Create .env file (we'll guide you)
@@ -318,9 +255,6 @@ docker-compose up --build
 
 That's it! Everything is set up and ready to use.
 
-**Option 2: Manual Setup (If you want to understand each piece)**
-
-We recommend following our YouTube tutorial "[Setting Up Your Django + Next.js Chatbot](https://youtube.com/@aparsoft)" where we walk through each command. Here are the complete steps:
 
 **Step 1: Clone the Repository**
 ```bash
@@ -401,37 +335,9 @@ npm run dev
 2. Sign up / Log in
 3. Go to API Keys section
 4. Create a new key
-5. Add $5-10 credit (plenty for learning!)
 
-We have a detailed video guide: "Getting Your First OpenAI API Key"
-
-### ❓ Stuck? We're Here to Help!
-
-- 📺 **Watch the setup video** on our YouTube channel
-- 💬 **Ask in GitHub Discussions** - we respond daily!
-- 🎮 **Join our Discord** (link in YouTube description)
-- 📚 **Check [SYSTEM_SETUP.md](./SYSTEM_SETUP.md)** - Comprehensive system configuration guide
-- 🚀 **See [QUICK_START.md](./QUICK_START.md)** - Quick reference and common commands
-- ⚠️ **Redis warning?** See [SYSTEM_SETUP.md](./SYSTEM_SETUP.md#fix-redis-memory-overcommit-warning)
-
-## 🤝 Contributing
-
-This is a learning project and we welcome contributions from developers at all levels!
-
-**Ways to contribute:**
-- **Improve documentation** - Help us make it clearer
-- **Add code comments** - Explain tricky parts
-- **Report bugs** - Help us fix issues
-- **Share your chatbot** - Show what you built!
-- **Suggest features** - What would help you learn?
-
-**Not sure where to start?** Check out our "Good First Issue" labels or ask in Discussions!
-
-## 🎬 YouTube Tutorial Series
-
-This repository is the companion code for our **beginner-friendly video tutorial series** on building AI chatbots!
-
-### 📺 Complete Tutorial Playlist
+---
+### 📺 Complete the project
 
 **Part 1: Setup & Basics** (Start here!)
 - "Introduction: What We're Building" - Project overview and goals
@@ -452,77 +358,4 @@ This repository is the companion code for our **beginner-friendly video tutorial
 - "Docker Basics for Beginners" - Containerizing your app
 - "Deploying Your First Chatbot" - Going live!
 
-### 📅 New Learning Content Every Week
-
-- **Monday:** Technical Tutorials (beginner-friendly!)
-- **Wednesday:** Live Coding & Q&A
-- **Friday:** Quick Tips & Troubleshooting
-
-### 🎓 What Makes Our Tutorials Different?
-
-- ✅ **No assumptions** - We explain every command
-- ✅ **Real code** - Not pseudocode, actual working examples
-- ✅ **Mistakes included** - We show bugs and how to fix them
-- ✅ **Django focus** - For backend devs learning AI
-- ✅ **Community support** - Active Discord and discussions
-
-**[→ Start Learning on YouTube](https://youtube.com/@aparsoft-ai)** - First video teaches absolute basics!
-
 ---
-
-## 📞 Get Help & Connect
-
-### 🎓 Learning & Community
-- **YouTube:** [@aparsoft-ai](https://youtube.com/@aparsoft-ai) - Main tutorial channel
-- **Discord:** [Join our community](https://aparsoft.com/discord) - Get help from fellow learners
-- **GitHub Discussions:** Ask questions about the code
-- **LinkedIn:** [/company/aparsoft](https://linkedin.com/company/aparsoft) - Articles and tips
-
-### 🐛 Found a Bug?
-- **GitHub Issues:** [Report it here](https://github.com/aparsoft/django-nextjs-chatbot/issues)
-- **Urgent help:** support@aparsoft.com
-
-### 💼 Want Us to Build For You?
-If you need a custom AI solution for your business (beyond learning):
-- **Website:** [aparsoft.com](https://aparsoft.com)
-- **Email:** contact@aparsoft.com
-- **Phone:** +91 8904064878
-
----
-
-## 📄 License
-
-Copyright © 2024 Aparsoft Private Limited. All rights reserved.
-
-This code is provided for educational purposes. Feel free to learn from it, modify it, and use it in your own projects!
-
----
-
-## 🌟 Support This Project
-
-**If this helped you learn:**
-- ⭐ **Star this repo** - Helps others find it
-- 🎥 **Subscribe on YouTube** - [@aparsoft](https://youtube.com/@aparsoft)
-- 📢 **Share with friends** - Help others learn too
-- 💬 **Join discussions** - Share what you built!
-- ☕ **Say thanks** - Tag us when you deploy your chatbot
-
----
-
-## 🚀 What's Next?
-
-Once you complete this tutorial, you can:
-
-1. **Build on it** - Add features like voice input, file uploads, etc.
-2. **Share your version** - Show us what you created!
-3. **Learn more** - We have advanced tutorials for RAG, agents, and more
-4. **Join our community** - Help other learners on their journey
-5. **Build for real** - Use this as foundation for actual projects
-
----
-
-*"Learning AI Together, One Chatbot at a Time"*
-
-**Built with ❤️ by the Aparsoft Team in Bengaluru, India**
-
-**Ready to start?** [▶️ Watch the first video](https://youtube.com/@aparsoft) and code along!
